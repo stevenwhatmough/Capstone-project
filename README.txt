@@ -1,6 +1,8 @@
 # Capstone-project
 Coursera Back-End Developer Capstone Project
 
+Python 3.14.3
+
 Dependencies:
 pip install -r requirements.txt
 

@@ -6,6 +6,16 @@ body {
     margin-right: 5%;
 }
 
+.logo {
+    border-style:double;
+    border-color:#333333;
+    border-radius:.5rem;
+    border-width:.2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Markazi Text', serif;
@@ -140,7 +150,7 @@ input{
     background-size: cover;
     background-position: 75%;
     color: white;
-    min-height: 200px;
+    min-height: 150px;
     text-align: center;;
 }
 

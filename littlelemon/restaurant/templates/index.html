@@ -1,10 +1,38 @@
+{% extends 'base.html' %}
 {% load static %}
-<html>
-    <head>
-        <title>Capstone Project</title>
-    </head>
-    <body>
-        <img src="{% static 'restaurant/img/logo.png' %}">
-        <h1 style="text-align:center;">Welcome to Little Lemon Restaurant</h1>
-    </body>
-</html>
+
+{% block content %}
+<section>
+    <article id="hero">
+        <h1>Newly Renovated!</h1>
+    </article>
+</section>
+<section>
+    <article>
+        <h2>Our Menu</h2>
+        <img src="{% static 'restaurant/img/Grill.jpg' %}">
+        <p>This item is really something</p>
+        <a href = "menu">See our new menu</a>
+    </article>
+    <article>
+        <h2>Book a table</h2>
+        <img src="{% static 'restaurant/img/salad.jpg' %}">
+        <p>
+            Reserve now for 75% off!
+        </p>
+        <a href="booking/tables">Book your table immediately</a>
+    </article>
+    <article>
+        <h2>Opening Hours</h2>
+        <img src="{% static 'restaurant/img/head_chef.jpg'%}">
+        <p>
+            The Little Lemon Restaurant is open everyday that counts
+        </p>
+        <ul>
+            <li>Mon - Fri: 2pm - 10pm</li>
+            <li>Sat: 2pm - 11pm</li>
+            <li>Sun: 2pm - 9pm</li>
+        </ul>
+    </article>
+</section>
+{% endblock %}

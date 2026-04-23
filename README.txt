@@ -1,6 +1,10 @@
 # Capstone-project
 Coursera Back-End Developer Capstone Project
 
+Dependencies:
+pip install -r requirements.txt
+
+
 API paths:
 
 restaurant/menu/
@@ -8,6 +12,7 @@ restaurant/booking/tables/
 
 General Notes:
 Index page with partials and base templates used. APIs can also accessed by the links in the index page (menu and book). 
+
 
 
 
